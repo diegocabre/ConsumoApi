@@ -107,7 +107,7 @@ const MiApi = () => {
   console.log(variantes);
 
   return (
-    <div className="container">
+    <div>
       <Buscador buscar={buscar} />
       <div>
         <h1 className="tituloInicial text-center">
@@ -129,7 +129,7 @@ const MiApi = () => {
           </ul>
         </nav>
       </div>
-      <div>
+      <div className="container">
         {cocktails.length > 0 ? (
           cocktails.map((cocktail) => (
             <Card key={cocktail.id} cocktail={cocktail} />

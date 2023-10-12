@@ -12,11 +12,7 @@ export default function App() {
         <img src={bar2} alt="" className="bar2" />
       </header>
       <main>
-        <div className="card">
-          <div className="card-body">
             <MiApi />
-          </div>
-        </div>
       </main>
       <footer>
         <p>

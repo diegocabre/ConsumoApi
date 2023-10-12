@@ -60,11 +60,6 @@ header {
   margin-top: 1rem;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .paginationResponsive {
   flex-wrap: wrap;
   justify-content: center;
@@ -90,10 +85,67 @@ footer {
   border: 1px solid #3b3b3b;
 }
 
-.container {
-  max-width: 100vh;
-  margin: 0;
-  padding: 0;
+.card{  
+  width: calc(100% - 20px);
+  background-color: rgba(192, 67, 9, 0.407);
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #3b3b3b;
+  box-shadow: 0 0 20px #3b3b3b;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 3840px) {
+  .card {
+    max-width: calc(25% - 20px);
+  }
+
+  .nombreCocktail {
+    font-size: 2.5rem;
+  }
+
+  .tituloInicial {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+    max-width: calc(100%/ 4 - 20px);
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    max-width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    max-width: calc(100% - 20px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    max-width: calc(100% - 20px);
+  }
+  
 }
