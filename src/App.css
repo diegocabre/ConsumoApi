@@ -104,7 +104,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 3840px) {
+@media screen and (max-width: 2560px) {
   .card {
     max-width: calc(25% - 20px);
   }
@@ -122,6 +122,14 @@ footer {
   .card {
     max-width: calc(100%/ 4 - 20px);
   }
+
+  .nombreCocktail {
+    font-size: 2rem;
+  }
+
+  .tituloInicial {
+    font-size: 3rem;
+  }
   
 }
 
@@ -129,11 +137,26 @@ footer {
   .card {
     max-width: calc(33.33% - 20px);
   }
+  .nombreCocktail {
+    font-size: 1.5rem;
+  }
+
+  .tituloInicial {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .card {
     max-width: calc(50% - 20px);
+  }
+
+  .nombreCocktail {
+    font-size: 1.5rem;
+  }
+
+  .tituloInicial {
+    font-size: 1.5rem;
   }
 }
 
