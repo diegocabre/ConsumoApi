@@ -1,0 +1,99 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b3b3b;
+  background-color: rgb(192, 67, 9);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #3b3b3b;
+}
+
+.portada, .bar, .bar2 {
+  max-width: calc(33.33% - 20px);
+  margin: 10px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #3b3b3b;
+}
+
+.tituloInicial {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.ingredientes {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 1rem;
+}
+
+.preparado {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 1rem;
+}
+
+.nombreCocktail {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.paginationResponsive {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buscador {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #3b3b3b;
+  background-color: brown;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #3b3b3b;
+}
+
+.container {
+  max-width: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
