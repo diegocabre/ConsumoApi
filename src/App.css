@@ -104,6 +104,38 @@ footer {
   justify-content: center;
 }
 
+.landing{
+  background-image: url('./assets/img/Landing.jpg');
+  background-repeat:space;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #3b3b3b;
+  border: 1px solid #3b3b3b;
+}
+
+.btn {
+  display: flex;
+  background-color: rgb(192, 67, 9);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #3b3b3b;
+  box-shadow: 0 0 20px #3b3b3b;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20%;
+  font-size: 4.5rem;
+
+  &:hover {
+    background-color: #fffdfd;
+    color: rgb(192, 67, 9);
+    border: 1px solid rgb(192, 67, 9);
+    box-shadow: 0 0 20px rgb(192, 67, 9);
+  }
+}
+
 @media screen and (max-width: 2560px) {
   .card {
     max-width: calc(25% - 20px);

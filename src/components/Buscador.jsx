@@ -10,6 +10,7 @@ export default function Buscador({ buscar }) {
   return (
     <div>
       <input
+        id="search"
         className="buscador"
         type="text"
         placeholder="Buscar Cocktail"
