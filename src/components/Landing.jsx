@@ -2,7 +2,7 @@ export default function Landing() {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section !== null) {
-            section.scrollIntoView({ behavior: "smooth" });
+            section.scrollIntoView({ behavior: "smooth"});
         }
     }
 

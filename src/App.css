@@ -66,6 +66,7 @@ header {
 }
 
 .buscador {
+  font-size: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
   text-align: center;
@@ -169,6 +170,11 @@ footer {
   .card {
     max-width: calc(33.33% - 20px);
   }
+
+  .buscador {
+    font-size: 1.5rem;
+  }
+
   .nombreCocktail {
     font-size: 1.5rem;
   }
@@ -181,6 +187,14 @@ footer {
 @media screen and (max-width: 768px) {
   .card {
     max-width: calc(50% - 20px);
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+
+  .buscador {
+    font-size: 1rem;
   }
 
   .nombreCocktail {
@@ -196,11 +210,27 @@ footer {
   .card {
     max-width: calc(100% - 20px);
   }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .buscador {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .card {
     max-width: calc(100% - 20px);
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .buscador {
+    font-size: 1rem;
   }
   
 }

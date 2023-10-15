@@ -53,7 +53,7 @@ const MiApi = () => {
               id: drink.idDrink,
               name: drink.strDrink,
               image: drink.strDrinkThumb,
-              instruction: drink.strInstructionsES,
+              instruction: drink.strInstructions,
               category: drink.strCategory,
               glass: drink.strGlass,
               ingredientes: ingredientes(drink),
@@ -94,7 +94,7 @@ const MiApi = () => {
               id: drink.idDrink,
               name: drink.strDrink,
               image: drink.strDrinkThumb,
-              instruction: drink.strInstructionsES,
+              instruction: drink.strInstructions,
               category: drink.strCategory,
               glass: drink.strGlass,
               ingredientes: ingredientes(drink),
@@ -108,11 +108,13 @@ const MiApi = () => {
 
   return (
     <div>
-      <Buscador buscar={buscar} />
-      <div>
-        <h1 className="tituloInicial text-center">
-          Elige la Inicial de tu Cocktail
-        </h1>
+      <div className="Inicial">
+        <div>
+          <h1 className="tituloInicial text-center">
+            Elige la Inicial de tu Cocktail
+          </h1>
+          <Buscador buscar={buscar} />
+        </div>
         <nav aria-label="...">
           <ul className="pagination paginationResponsive pagination-sm">
             {abc.map((a, index) => (

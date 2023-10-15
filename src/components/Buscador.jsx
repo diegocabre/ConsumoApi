@@ -8,7 +8,7 @@ export default function Buscador({ buscar }) {
   }
 
   return (
-    <div>
+    <div className="buscador">
       <input
         id="search"
         className="buscador"
@@ -16,7 +16,7 @@ export default function Buscador({ buscar }) {
         placeholder="Buscar Cocktail"
         onChange={handleChange}
       />
-      <button onClick={() => buscar(search)}>Buscar</button>
+      <button className="botonBuscar" onClick={() => buscar(search)}>Buscar</button>
     </div>
   );
 }
